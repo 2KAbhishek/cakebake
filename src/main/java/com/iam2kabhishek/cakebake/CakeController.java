@@ -35,4 +35,19 @@ public class CakeController {
     private ArrayList<String> toppings = new ArrayList<>();
     private Cake cake;
 
+    @FXML
+    private void refresh() throws IOException {
+        if (!isInitialized) {
+            isInitialized = true;
+            quantityCombo.getItems().addAll(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+            quantityCombo.getSelectionModel().selectFirst();
+
+            sizeCombo.getItems().addAll("Small", "Medium", "Large");
+            sizeCombo.getSelectionModel().selectFirst();
+
+            priceLabel.setText("RM45.00");
+
+            cake = new Cake();
+        }
+    }
 }
