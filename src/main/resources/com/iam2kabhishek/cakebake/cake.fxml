@@ -39,6 +39,14 @@
             <CheckBox fx:id="butterCheck" mnemonicParsing="false" prefHeight="18.0" prefWidth="117.0" text="Butter Cream" GridPane.rowIndex="1" />
             <CheckBox fx:id="creamCheck" mnemonicParsing="false" text="Crean Cheese" GridPane.columnIndex="1" />
             <CheckBox fx:id="fondueCheck" mnemonicParsing="false" text="Fondue" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <ChoiceBox fx:id="sizeCombo" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <padding>
+                  <Insets right="10.0" />
+               </padding>
+               <GridPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </GridPane.margin></ChoiceBox>
+            <Label text="Select Size" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="2">
          </children>
       </GridPane>
    </children>
