@@ -1,6 +1,6 @@
 <div align = "center">
 
-<h1><a href="https://2kabhishek.github.io/cakebake">cakebake</a></h1>
+<h1><a href="https://2kabhishek.github.io/cakebake">CakeBake</a></h1>
 
 <a href="https://github.com/2KAbhishek/cakebake/blob/main/LICENSE">
 <img alt="License" src="https://img.shields.io/github/license/2kabhishek/cakebake?style=plastic&color=white&label=License"> </a>
@@ -23,7 +23,7 @@
 <a href="https://github.com/2KAbhishek?tab=followers">
 <img alt="Followers" src="https://img.shields.io/github/followers/2kabhishek?color=222&style=plastic&label=Followers"> </a>
 
-<h3>Short sweet headline with 🎇🎉</h3>
+<h3>Bake some Cakes 🎂👨🏼‍🍳</h3>
 
 <figure>
   <img src= "images/screenshot.png" alt="cakebake Demo">
@@ -35,17 +35,17 @@
 
 ## What is this
 
-cakebake is a `<utility/tool/feature>` that allows `<insert_target_audience>` to do `<action/task_it_does>`.
+CakeBake is a GUI application that let's you generate Cake orders using a friendly user interface.
 
 ## Inspiration
 
-cakebake was inspired by `<reason/idea>`.
+Wanted to explore JavaFx a bit more, thought of this.
 
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
 
-- You have installed the latest version of `<coding_language/dependency/requirement_1>`
+- You have installed the latest version of `java`, `javafx`
 
 ## Getting cakebake
 
@@ -54,51 +54,26 @@ To get cakebake, follow these steps:
 ```bash
 git clone https://github.com/2kabhishek/cakebake
 cd cakebake
-<install_command>
+code . # With Java extensions installed
+# Run CakeBake.java
 ```
 
 ## Using cakebake
 
-```bash
-USAGE:
-    command [FLAGS] [OPTIONS]
-
-FLAGS:
-    -h, --help              Prints help information.
-
-OPTIONS:
-    -o, --option <value>    Option description.
-    Options are: a, b. [default: a]
-
-Example:
-
-
-```
+Once the app is running, you can select various options from the UI and clicking on `Place Order` will save the order to `orders.txt` file.
 
 ## How it was built
 
-cakebake was built using `<tech/library>`
+cakebake was built using `javafx`
 
 ## Challenges faced
 
-While building cakebake the main challenges were `<issue/difficulty>`
+Building the UI exactly as I wanter with FXML was somewhat challenging.
 
 ## What I learned
 
-While building cakebake I `<learned/accomplished>` about `<learning/accomplishment>`
-
-## What's next
-
-Planning to add `<feature/module>`.
-
-### To-Do
-
-- [x] Setup repo
-- [ ] Think real hard
-- [ ] Start typing
-- [ ] Change me
-- [ ] Update README
-- [ ] Finish it
+- Got to learn more about JavaFX and how powerful it is.
+- Discovered various new components in FXML and how to use them.
 
 Hit the ⭐ button if you found this useful.
 
