@@ -32,4 +32,19 @@ public class Cake {
         this("", 1, "Small", new String[] {});
     }
 
+    public void setSize(String size) {
+        this.size = size;
+    }
+
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setToppings(String[] toppings) {
+        this.toppings = toppings;
+    }
 }
