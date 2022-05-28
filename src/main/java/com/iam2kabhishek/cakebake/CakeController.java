@@ -49,5 +49,23 @@ public class CakeController {
 
             cake = new Cake();
         }
+        cake.setName(nameText.getText());
+        cake.setQuantity(quantityCombo.getValue());
+        cake.setSize(sizeCombo.getValue());
+        toppings.clear();
+        if (lavaCheck.isSelected()) {
+            toppings.add("Lava Chocolate");
+        }
+        if (butterCheck.isSelected()) {
+            toppings.add("Butter Cream");
+        }
+        if (creamCheck.isSelected()) {
+            toppings.add("Cream Cheese");
+        }
+        if (fondueCheck.isSelected()) {
+            toppings.add("Fondue");
+        }
+        cake.setToppings(toppings.toArray(new String[toppings.size()]));
+        priceLabel.setText("RM" + cake.getTotalPrice());
     }
 }
