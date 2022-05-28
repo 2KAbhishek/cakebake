@@ -28,4 +28,8 @@ public class Cake {
         prices.put("Large", priceBig);
     }
 
+    public Cake() {
+        this("", 1, "Small", new String[] {});
+    }
+
 }
