@@ -31,4 +31,8 @@ public class CakeController {
     @FXML
     private javafx.scene.control.Label priceLabel;
 
+    private boolean isInitialized = false;
+    private ArrayList<String> toppings = new ArrayList<>();
+    private Cake cake;
+
 }
