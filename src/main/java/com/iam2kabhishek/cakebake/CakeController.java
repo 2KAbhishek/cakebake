@@ -36,6 +36,13 @@ public class CakeController {
     private Cake cake;
 
     @FXML
+    private void placeOrder() throws IOException {
+        BufferedWriter writer = new BufferedWriter(new java.io.FileWriter("orders.txt", true));
+        writer.write(cake.toString());
+        writer.close();
+    }
+
+    @FXML
     private void refresh() throws IOException {
         if (!isInitialized) {
             isInitialized = true;
