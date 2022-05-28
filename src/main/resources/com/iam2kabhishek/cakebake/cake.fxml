@@ -60,6 +60,17 @@
       </GridPane>
       <HBox alignment="CENTER" prefHeight="45.0" prefWidth="367.0">
          <children>
+            <Label alignment="CENTER" text="Total : " textFill="#1688f0">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="priceLabel" prefHeight="20.0" prefWidth="71.0" text="RM">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Separator orientation="VERTICAL" prefHeight="45.0" prefWidth="134.0" />
          </children>
       </HBox>
    </children>
