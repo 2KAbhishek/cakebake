@@ -22,6 +22,7 @@
          </font>
       </Label>
       <TextField fx:id="nameText" alignment="CENTER" maxWidth="360.0" promptText="Enter Name" />
+      <Label text="Select Toppings" />
       <GridPane alignment="CENTER">
         <columnConstraints>
           <ColumnConstraints halignment="CENTER" />
@@ -34,6 +35,10 @@
             <RowConstraints minHeight="32.0" prefHeight="30.0" valignment="CENTER" />
         </rowConstraints>
          <children>
+            <CheckBox fx:id="lavaCheck" alignment="CENTER" mnemonicParsing="false" text="Lava Chocolate" />
+            <CheckBox fx:id="butterCheck" mnemonicParsing="false" prefHeight="18.0" prefWidth="117.0" text="Butter Cream" GridPane.rowIndex="1" />
+            <CheckBox fx:id="creamCheck" mnemonicParsing="false" text="Crean Cheese" GridPane.columnIndex="1" />
+            <CheckBox fx:id="fondueCheck" mnemonicParsing="false" text="Fondue" GridPane.columnIndex="1" GridPane.rowIndex="1" />
          </children>
       </GridPane>
    </children>
