@@ -16,6 +16,11 @@
 
 <VBox alignment="CENTER" maxHeight="400.0" maxWidth="400.0" onMouseMoved="#refresh" prefHeight="400.0" prefWidth="400.0" spacing="20.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.iam2kabhishek.cakebake.CakeController">
    <children>
+      <Label text="Cake Bake" textFill="#1688f0">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
    </children>
    <padding>
       <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
