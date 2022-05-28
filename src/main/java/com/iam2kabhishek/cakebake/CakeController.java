@@ -53,7 +53,7 @@ public class CakeController {
             sizeCombo.getItems().addAll("Small", "Medium", "Large");
             sizeCombo.getSelectionModel().selectFirst();
 
-            priceLabel.setText("RM45.00");
+            priceLabel.setText("₹45.00");
 
             cake = new Cake();
         }

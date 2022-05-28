@@ -4,9 +4,9 @@ import java.util.HashMap;
 
 public class Cake {
 
-    private final double priceSmall = 45.00;
-    private final double priceMedium = 65.00;
-    private final double priceBig = 80.00;
+    private final double priceSmall = 450.00;
+    private final double priceMedium = 650.00;
+    private final double priceBig = 800.00;
 
     private HashMap<String, Double> prices;
 
