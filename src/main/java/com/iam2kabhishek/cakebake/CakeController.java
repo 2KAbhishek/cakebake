@@ -34,10 +34,11 @@ public class CakeController {
     private boolean isInitialized = false;
     private ArrayList<String> toppings = new ArrayList<>();
     private Cake cake;
+    private final String ORDERS_FILE = "orders.txt";
 
     @FXML
     private void placeOrder() throws IOException {
-        BufferedWriter writer = new BufferedWriter(new java.io.FileWriter("orders.txt", true));
+        BufferedWriter writer = new BufferedWriter(new java.io.FileWriter(ORDERS_FILE, true));
         writer.write(cake.toString());
         writer.close();
     }
