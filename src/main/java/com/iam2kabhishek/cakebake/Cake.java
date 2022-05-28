@@ -14,7 +14,6 @@ public class Cake {
     private int quantity;
     private String name;
     private String[] toppings;
-    private double totalPrice;
 
     public Cake(String name, int quantity, String size, String[] toppings) {
         this.name = name;
@@ -47,4 +46,9 @@ public class Cake {
     public void setToppings(String[] toppings) {
         this.toppings = toppings;
     }
+
+    public double getTotalPrice() {
+        return (prices.get(size) * quantity + (toppings.length * 10));
+    }
+
 }
