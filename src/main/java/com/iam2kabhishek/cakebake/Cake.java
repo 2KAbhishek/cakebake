@@ -16,4 +16,16 @@ public class Cake {
     private String[] toppings;
     private double totalPrice;
 
+    public Cake(String name, int quantity, String size, String[] toppings) {
+        this.name = name;
+        this.toppings = toppings;
+        this.quantity = quantity;
+        this.size = size;
+
+        prices = new HashMap<>();
+        prices.put("Small", priceSmall);
+        prices.put("Medium", priceMedium);
+        prices.put("Large", priceBig);
+    }
+
 }
