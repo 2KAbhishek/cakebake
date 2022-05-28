@@ -51,4 +51,19 @@ public class Cake {
         return (prices.get(size) * quantity + (toppings.length * 10));
     }
 
+    @Override
+    public String toString() {
+        StringBuffer sb = new StringBuffer();
+        sb.append("\nCake Order Details:\n");
+        sb.append("\n-------------------------------------------");
+        sb.append("\nName: " + name);
+        sb.append("\nQuantity: " + quantity);
+        sb.append("\nSize : " + size);
+        sb.append("\nToppings :");
+        sb.append(String.join(", ", toppings));
+        sb.append("\n-------------------------------------------");
+        sb.append("\nTotal Price: RM" + getTotalPrice());
+        sb.append("\n-------------------------------------------");
+        return sb.toString();
+    }
 }
