@@ -65,7 +65,7 @@
                   <Font name="System Bold" size="13.0" />
                </font>
             </Label>
-            <Label fx:id="priceLabel" prefHeight="20.0" prefWidth="71.0" text="RM">
+            <Label fx:id="priceLabel" prefHeight="20.0" prefWidth="71.0" text="₹">
                <font>
                   <Font name="System Bold" size="13.0" />
                </font>

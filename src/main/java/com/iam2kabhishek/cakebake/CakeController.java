@@ -74,6 +74,6 @@ public class CakeController {
             toppings.add("Fondue");
         }
         cake.setToppings(toppings.toArray(new String[toppings.size()]));
-        priceLabel.setText("RM" + cake.getTotalPrice());
+        priceLabel.setText("₹" + cake.getTotalPrice());
     }
 }
