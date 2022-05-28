@@ -1,1 +1,8 @@
-# Excluded files
+# Orders file
+orders.txt
+
+# Target classes
+target/
+
+# Classes
+*.class
