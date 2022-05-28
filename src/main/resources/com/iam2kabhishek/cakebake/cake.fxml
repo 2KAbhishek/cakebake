@@ -46,7 +46,16 @@
                <GridPane.margin>
                   <Insets left="10.0" right="10.0" />
                </GridPane.margin></ChoiceBox>
+            <Label text="Select Quantity" textAlignment="CENTER" GridPane.rowIndex="2" />
+            <ChoiceBox fx:id="quantityCombo" prefWidth="150.0" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </GridPane.margin></ChoiceBox>
             <Label text="Select Size" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets left="50.0" />
+               </GridPane.margin>
+            </Label>
          </children>
       </GridPane>
    </children>
