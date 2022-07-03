@@ -1,6 +1,6 @@
 <div align = "center">
 
-<h1><a href="https://2kabhishek.github.io/cakebake">CakeBake</a></h1>
+<h1><a href="https://2kabhishek.github.io/cakebake">Cake Bake</a></h1>
 
 <a href="https://github.com/2KAbhishek/cakebake/blob/main/LICENSE">
 <img alt="License" src="https://img.shields.io/github/license/2kabhishek/cakebake?style=plastic&color=white&label=License"> </a>
@@ -23,7 +23,7 @@
 <a href="https://github.com/2KAbhishek?tab=followers">
 <img alt="Followers" src="https://img.shields.io/github/followers/2kabhishek?color=222&style=plastic&label=Followers"> </a>
 
-<h3>Bake some Cakes 🎂👨🏼‍🍳</h3>
+<h3>Bake some cakes 🎂👨🏼‍🍳</h3>
 
 <figure>
   <img src= "images/screenshot.png" alt="cakebake Demo">
@@ -68,7 +68,7 @@ cakebake was built using `javafx`
 
 ## Challenges faced
 
-Building the UI exactly as I wanter with FXML was somewhat challenging.
+Building the UI exactly as I wanted with FXML was somewhat challenging.
 
 ## What I learned
 
